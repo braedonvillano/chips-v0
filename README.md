@@ -87,3 +87,27 @@ Example of developing and deploying a [dockerized]((https://www.docker.com/)) [N
 **Output**
 
 ![](http://note.io/1FFQXuL)
+
+## Bash Shell into Running Docker Container
+
+1. ssh into ec2 docker host server
+
+	```bash
+	$ eb ssh
+	```
+
+2. Get container name
+
+	```bash
+	$ sudo docker ps # save off name of container
+	```
+
+3. Connect/attach with an interactive bash session
+
+	```bash
+	$ sudo docker exec -i -t <container name> bash
+	```
+
+**Example Session with Output**
+
+![](http://note.io/1CYSlIH)
