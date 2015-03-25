@@ -88,7 +88,7 @@ Example of developing and deploying a [dockerized]((https://www.docker.com/)) [N
 
 ![](http://note.io/1FFQXuL)
 
-## Bash Shell into Running Docker Container
+## Establish Interactive Bash Shell in Running Docker Container
 
 1. ssh into ec2 docker host server
 
